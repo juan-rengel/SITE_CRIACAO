@@ -286,7 +286,7 @@ section.module.parallax:after{
 }
 
 section.module.parallax-1{
-    background-image: url(assents/imagenes/3.webp);
+    background-image: url(../imagenes/3.webp);
     
 }
 
@@ -319,6 +319,8 @@ section.module.parallax a{
   ease-in-out infinite;
   transform: scale3d(1.1, 1.1, 1);
 }
+
+
 
 .A{
     font-size: 3rem;
