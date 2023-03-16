@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quem somos</title>
+    <link rel="shortcut icon" href="assents/imagenes/flavicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <link rel="stylesheet" href="assents/css/style.css">
+    <link rel="stylesheet" href="assents/css/quem-somos.css">
+
+    <style>
+
+        main{
+            background-image: url(assents/imagenes/3.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-foto{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+
+
+        .cardF{
+            width: 300px;
+            height: 620px;
+            margin: 25px;
+            background-color: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 5px 5px 20px #0000008c;
+            border: 1px solid rgba(17, 0, 14, 0.772);
+            transition: 0.3s;
+            background-attachment: fixed;
+
+        }
+    
+
+        .cardF-header{
+          width: 100%;  
+          height: 350px;
+          overflow: hidden;
+        }
+
+        .cardF-img{
+            min-width: 100%;
+            width: auto;
+            height: 100%;
+        }
+
+        .cardF-body{
+          height: 170px;  
+          padding: 15px;
+          text-align: center;
+          font-family: sans-serif;
+        }
+
+        .cardF-local{
+            font-size: 20px;
+            margin: 10px 0;
+
+        }
+
+        .cardF-titulo{
+            font-size: 25px;
+            margin-bottom: 10px;
+
+        }
+
+        .cardF-texto{
+            width: 250px;
+            margin: 0 auto;
+            font-size: 17px;
+        }
+
+        .cardF-footer{
+            margin-top: 15px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .cardF-footer a{
+            color: #fff;
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 25px;
+        }
+
+        .cardF-footer a:hover{
+            background-color: #00d0cd;
+            color: black;
+            font-weight: bold;
+            font-size: 29px;
+        }
+
+
+        .card-1 .cardF-footer{
+            background-color: #171719;
+        }
+        .card-1 .cardF-local{
+            color: rgba(0, 14, 24, 0.987);
+        }
+
+        
+        .card-2 .cardF-footer{
+            background-color: #171719;
+        }
+        .card-2 .cardF-local{
+            color: rgba(0, 14, 24, 0.987);
+        }
+
+        
+        .card-3 .cardF-footer{
+            background-color: #171719;
+        }
+        .card-3 .cardF-local{
+            color: rgba(0, 14, 24, 0.987);
+        }
+
+
+        /* ANIMACION HOVER */
+
+        .cardF:hover {
+            transform: scale3d(1.1, 1.1, 1);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+       
+        <h1 class="logo"><span class="amarillo">Dolar</span>House</h1>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtonovo.html">produtos</a></li>
+                <li><a href="#">Educativos +</a>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=XB-wwxj-AZE&t=2026s" target="_blank">Robot</a></li>
+                        <li><a href="#">DayTrader</a>
+                            <ul>
+                                <li><a href="https://br.investing.com/economic-calendar/" target="_blank">Calendario Economico</a></li>
+                                <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank">BCN</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank">Mini Curso</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li> <a href="#">contatos</a>
+                    <ul>
+                        <li><a href="https://www.instagram.com/dolar.housee/" target="_blank">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="https://chat.whatsapp.com/JWXcCFzEk4XI4tTEMtGceG" target="_blank">whatsapp</a></li>
+                        <li><a href="mailto:suporte@dolarhouse.com.br" target="_blank">Email</a></li>
+                    </ul>
+                </li>
+                <li><a href="quem-somos.html">quem somos</a></li>
+            </ul>
+        </nav>
+     
+    </header>
+
+    <main>
+        <div class="container-foto">
+            <!-- card 1 -->
+            <div class="cardF card-1">
+                <!-- card-header -->
+                <div class="cardF-header">
+                    <img src="./assents/imagenes/bruno.jpg" class="cardF-img" alt="imagen">
+                </div>
+                <!-- cardF-header -->   
+
+                <!-- card-body --> 
+                <div class="cardF-body">
+                    <h3 class="cardF-local">Brasil / São paulo</h3>
+                    <h2 class="cardF-titulo">Bruno Pereira</h2>
+                    <p class="cardF-texto">
+                        Administrador de Empresas e
+                        Trader profissional. Criador da estratégia automatizada
+                         <strong>DH-1</strong> de operações em dólar na bolsa de valores.
+                       
+                    </p>
+                </div> 
+                <!-- card-body --> 
+
+                <!-- card-footer--> 
+                <div class="cardF-footer">
+                    <a href="#">ver mais</a>
+                </div>
+                <!-- card-footer--> 
+
+            </div>
+              <!-- card 1 -->
+
+
+
+
+
+
+               <!-- card 2 -->
+            <div class="cardF card-2">
+                <!-- card-header -->
+                <div class="cardF-header">
+                    <img src="./assents/imagenes/juan.jpg" class="cardF-img" alt="imagen">
+                </div>
+                <!-- cardF-header -->   
+
+                <!-- card-body --> 
+                <div class="cardF-body">
+                    <h3 class="cardF-local">Venezuela / Puerto ordaz</h3>
+                    <h2 class="cardF-titulo">Juan rengel</h2>
+                    <p class="cardF-texto">
+                    <strong>Desenvolvedor Full Stack</strong> <br> Autor e Desenvolvedor das Estrategias Automatizadas. Na linguagem (NTSL).
+                       
+                    </p>
+                </div> 
+                <!-- card-body --> 
+
+                <!-- card-footer--> 
+                <div class="cardF-footer">
+                    <a href="#">ver mais</a>
+                </div>
+                <!-- card-footer--> 
+
+            </div>
+              <!-- card 2 -->
+
+
+
+
+
+
+
+
+               <!-- card 3 -->
+            <div class="cardF card-3">
+                <!-- card-header -->
+                <div class="cardF-header">
+                    <img src="assents/imagenes/mauricio.png" class="cardF-img" alt="imagen">
+                </div>
+                <!-- cardF-header -->   
+
+                <!-- card-body --> 
+                <div class="cardF-body">
+                    <h3 class="cardF-local">Brasil / Recife</h3>
+                    <h2 class="cardF-titulo">Jose Mauricio</h2>
+                    <p class="cardF-texto">
+                       profissional experiente em vendas e marketing.
+                        com 6 anos de trajetoria 
+                        em vendas e aprimorando suas habilidades nessa área
+                       
+                    </p>
+                </div> 
+                <!-- card-body --> 
+
+                <!-- card-footer--> 
+                <div class="cardF-footer">
+                    <a href="#">ver mais</a>
+                </div>
+                <!-- card-footer--> 
+
+            </div>
+              <!-- card 3 -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </main>
+
+
+
+
+
+
+
+    
+
+   <footer>
+    <div id="footer-content">
+        <div id="footer-contacts">
+            <h1><span class="amarillo">Dolar</span>House</h1>
+            <p>Investimt Robot</p>
+            <div id="footer-social-media">
+               <a href="https://www.instagram.com/dolar.housee/" target="_blank" class="footer-link" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
+               </a> 
+               <a href="#" class="footer-link" id="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+               </a> 
+               <a href="#" class="footer-link" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+               </a> 
+            </div>
+
+        </div>
+        <ul class="footer-list">
+            <li>
+                <h3>Educativos</h3>
+            </li>
+            <li>
+                <a href="https://br.investing.com/economic-calendar/" class="footer-link" target="_blank">Calendario Economico</a>
+            </li>
+            <li>
+                <a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank" class="footer-link">BCN</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank" class="footer-link">Mini Curso</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Robot</a>
+            </li>
+        </ul>
+
+
+        <ul class="footer-list">
+            <li>
+                <h3>productos</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Robot</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Serviços</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Entretenimento</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">MacroEconomia</a>
+            </li>
+        </ul>
+
+        <div id="footer-subcribe">
+            <h3>Suporte</h3>
+            <p>
+                Entre em contato conosco Via Email
+                <i class="fa-solid fa-envelope"></i>  
+            </p>
+
+            <div id="input-group">
+                <a href="#">Suporte@DolarHouse.com.br</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer-copyright">
+        &#169
+        2023 Todos os direitos reservados
+    </div>
+</footer>
+
+      
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
