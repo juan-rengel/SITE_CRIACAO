@@ -286,18 +286,18 @@ section.module.parallax:after{
 }
 
 section.module.parallax-1{
-    background-image: url(../imagenes/3.webp);
+    background-image: url(../imge/15.png);
     
 }
 
 
 section.module.parallax-2{
-    background-image: url(../imagenes/capa.jpg);
+    background-image: url(../imge/7.png);
 
 }
 
 section.module.parallax-3{
-    background-image: url(../imagenes/9.png);
+    background-image: url(../imge/10.png);
 
 
 }
@@ -307,17 +307,25 @@ section.module.parallax a{
     text-align: center;
     z-index: 50;
     text-transform: uppercase;
-    background-color: #0000009d;
+    background-color: #000000b0;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #ecf8009c;
-    border-top: 3px solid #ecf800;
-    border-right: 3px solid #ecf800;
+    box-shadow: 5px 5px 10px #000000c8;
+    border-top: 1px solid #ecf800;
+    border-right: 1px solid #00cff8;
     font-weight: bold;
     padding: 10px;
     
     animation: flutuaçao 1s
   ease-in-out infinite;
   transform: scale3d(1.1, 1.1, 1);
+
+}
+.mas{
+    display: none;
+}
+.profit{
+    display: block;
+    color: #ffee00;
 }
 
 
@@ -328,18 +336,20 @@ section.module.parallax a{
     margin-bottom: 5px;
 }
 .B{
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     margin-bottom: 5px;
 }
 .gratis{
     background-color: #f87000;
-    padding: 1px;
+    padding: 0px;
     border-radius: 5px;
     margin-left: 20px;
 }
 .C{
     color: #01fffb;
     font-size: 3rem;
+    display: block;
+    margin-top: 5px;
 }
 
 
@@ -648,18 +658,18 @@ footer{
 
     
 section.module.parallax-1{
-    background-image: url(../imagenes/CELULAR.jpg);
+    background-image: url(../imge/7.png);
     
 }
 
 
 section.module.parallax-2{
-    background-image: url(../imagenes/capa.jpg);
+    background-image: url(../imge/8.png);
 
 }
 
 section.module.parallax-3{
-    background-image: url(../imagenes/9.png);
+    background-image: url(../imge/15.png);
 
 
 }
