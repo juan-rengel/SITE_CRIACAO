@@ -650,6 +650,26 @@ footer{
         padding: 2rem 2rem;
     }
 
+
+    
+section.module.parallax-1{
+    background-image: url(../imagenes/CELULAR.jpg);
+    
+}
+
+
+section.module.parallax-2{
+    background-image: url(../imagenes/capa.jpg);
+
+}
+
+section.module.parallax-3{
+    background-image: url(../imagenes/9.png);
+
+
+}
+
+
     
 #input-group a{
   display: none;
