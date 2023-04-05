@@ -103,7 +103,7 @@ header .navbar ul li:hover > ul{
 
 header label{
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     display: none;
 }
