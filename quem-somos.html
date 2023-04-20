@@ -36,14 +36,14 @@
 
 
         .cardF{
-            width: 400px;
+            width: 430px;
             height: 600px;
             margin: 15px;
-            background-color: #000000a1;
+            background-color: #00000026;
             border-radius: 25px;
             overflow: hidden;
-            border: 2px solid rgba(160, 0, 72, 0.178);
-            box-shadow: 5px 5px 25px #300303;
+            border: 2px solid rgba(0, 0, 0, 0.178);
+            box-shadow: 5px 5px 25px #3003033f;
             transition: 0.3s;
             background-attachment: fixed;
             color: #fff;
@@ -62,7 +62,7 @@
             width: auto;
             height: 100%;
         }
-
+    
         .cardF-body{
           height: 170px;  
           padding: 15px;
@@ -95,20 +95,24 @@
 
         .cardF-footer a{
             display: block;
-            padding: 9px;
+            padding: 11px;
             text-decoration: none;
             font-family: sans-serif;
             font-weight: 600;
             font-size: 30px;
             color: #fff;
-            background-color: #006b95;
-            border: 3px solid #006b95;
+            background: linear-gradient(45deg, #300303, #07002a, #000000);
+            background-size: 300% 300%;
+            animation: colors 5s ease infinite;
+
+            border: 1px solid rgba(73, 3, 147, 0.671);
             border-radius: 0px 0px 25px 25px;
         }
 
         .cardF-footer a:hover{
+            padding: 9px;
             background-color: transparent;
-            border: 3px solid #006b95;
+            border: 3px solid rgba(73, 3, 147, 0.819);
             border-radius: 0px 0px 25px 25px;
             color: rgb(255, 255, 255);
             font-weight: bold;
@@ -135,35 +139,60 @@
             transform: scale3d(1.1, 1.1, 1);
         }
 
+        
+    @media screen and (max-width: 768px) {
+
+       
+        .cardF{
+            width: 430px;
+            height: 600px;
+            margin: 15px;
+            background-color: #00000026;
+            border-radius: 25px;
+            overflow: hidden;
+            border: 2px solid rgba(0, 0, 0, 0.178);
+            box-shadow: 5px 5px 25px #3003033f;
+            background-attachment: fixed;
+            color: #fff;
+
+        }
+        
+        .cardF:hover {
+            transform: none;
+        }
+
+    } 
+
+
+
 
     </style>
 </head>
 <body>
-
-    <header>
-       
-        <h1 class="logo"><span class="amarillo">Dolar</span>House</h1>
-
+    <header>     
+        <h1 class="logo"><span style="color:  #01fffb;">Dolar</span>House <br>
+            <p class="logop">A casa do trader</p></h1>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar">Menu</label>
 
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Produtos.html">produtos</a></li>
-                <li><a href="#">Educativos +</a>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="#">Ferramentas Trader</a>
                     <ul>
-                        <li><a href="https://www.youtube.com/watch?v=XB-wwxj-AZE&t=2026s" target="_blank">Robot</a></li>
-                        <li><a href="#">DayTrader</a>
+                        <li><a href="#">Calculos e paridades</a>
+                        <li><a href="#">Materiais Didatico</a>
+                        <li><a href="#">MUNDO TRADER</a>
                             <ul>
+                                <li><a href="#">Crie sua conta na corretora</a>
                                 <li><a href="https://br.investing.com/economic-calendar/" target="_blank">Calendario Economico</a></li>
                                 <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank">BCN</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank">Mini Curso</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li> <a href="#">contatos</a>
+                <li> <a href="#">Contatos</a>
                     <ul>
                         <li><a href="https://www.instagram.com/dolar.housee/" target="_blank">Instagram</a></li>
                         <li><a href="#">Facebook</a></li>
@@ -171,11 +200,10 @@
                         <li><a href="mailto:contato@dolarhouse.com.br" target="_blank">Email</a></li>
                     </ul>
                 </li>
-                <li><a href="quem-somos.html">quem somos</a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
             </ul>
         </nav>
-     
-    </header>
+        </header>
 
     <main>
         <div class="container-foto">
@@ -189,12 +217,12 @@
 
                 <!-- card-body --> 
                 <div class="cardF-body">
-                    <h3 class="cardF-local">Brasil / São paulo</h3>
-                    <h2 class="cardF-titulo">Bruno Pereira</h2>
+                    <h3 class="cardF-local">Bruno Pereira</h3>
+                    <h2 class="cardF-titulo">Trader Profissional</h2>
                     <p class="cardF-texto">
                         Administrador de Empresas e
-                        Trader profissional com 10 anos de experenças. Criador da estratégia automatizada
-                         de operações em dólar na bolsa de valores.
+                        Trader Profissional com 10 anos de experiência. Criador de estratégias automatizadas
+                         para o mercado financeiro.
                        
                     </p>
                 </div> 
@@ -218,24 +246,25 @@
             <div class="cardF card-2">
                 <!-- card-header -->
                 <div class="cardF-header">
-                    <img src="./assents/imagenes/" class="cardF-img" alt="imagen">
+                    <img src="./assents/imagenes/perfil-juan.jpg" class="cardF-img" alt="imagen">
                 </div>
                 <!-- cardF-header -->   
 
                 <!-- card-body --> 
                 <div class="cardF-body">
-                    <h3 class="cardF-local">Venezuela / Puerto ordaz</h3>
-                    <h2 class="cardF-titulo">Juan rengel</h2>
+                    <h3 class="cardF-local">Juan rengel</h3>
+                    <h2 class="cardF-titulo">Programador</h2>
                     <p class="cardF-texto">
-                    <strong>Desenvolvedor de Software</strong> <br> Autor e Desenvolvedor de Estrategias Automatizadas.
-                    com 6 anos de experiencias em programação.
+                    Autor e Desenvolvedor de Estrategias Automatizadas do mercado financeiro
+                    com mais de 6 anos como Desenvolvedor de software.
+                    
                     </p>
                 </div> 
                 <!-- card-body --> 
 
                 <!-- card-footer--> 
                 <div class="cardF-footer">
-                    <a href="#">ver mais</a>
+                    <a href="https://github.com/juan-rengel" target="_blank">ver mais</a>
                 </div>
                 <!-- card-footer--> 
 
@@ -271,98 +300,58 @@
             </div>
               <!-- card 2 -->
 
-
-
-
    </main>
 
+    <!-- INICIO FOOTER -->         
+    <footer>
+        <div class="container-footer">
+            <ul>
+                <h3><span style="color: #01fffb;">Dolar</span> House</h3>
+                <p>"A Dolar House é uma empresa que busca ajudar pessoas a alcançarem seus objetivos financeiros através do conhecimento, tecnologia e inovação."</p>
+                <div class="redes-footer">
+                    <a href="https://chat.whatsapp.com/D2ICohYZUPl6YRuzOxgQV2" target="_blank" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> </a> 
+                    
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
 
+                    <a href="https://www.instagram.com/dolar.housee/" target="_blank" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </ul>
 
-
-
-
-
-    
-
-   <footer>
-    <div id="footer-content">
-        <div id="footer-contacts">
-            <h1><span>Dolar</span>House</h1>
-            <p>Investimt Robot</p>
-            <div id="footer-social-media">
-               <a href="https://www.instagram.com/dolar.housee/" target="_blank" class="footer-link" id="instagram">
-                <i class="fa-brands fa-instagram"></i>
-               </a> 
-               <a href="#" class="footer-link" id="facebook">
-                <i class="fa-brands fa-facebook-f"></i>
-               </a> 
-               <a href="https://chat.whatsapp.com/D2ICohYZUPl6YRuzOxgQV2" target="_blank" class="footer-link" id="whatsapp">
-                <i class="fa-brands fa-whatsapp"></i>
-               </a> 
-            </div>
-
+            <ul>
+                <h3>Ferramentas Trader</h3> 
+                <li><a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank">Mini curso para iniciantes</a></li>
+                <li><a href="#">Calculos e paridades</a></li>
+                <li><a href="materiais.html">Materiais Didatico</a></li>
+                <li><a href="#">Padroês Graficos</a></li>
+            </ul>
+            <ul>
+                <h3>Mundo Trader</h3>
+                <li><a href="#">Crie sua conta na corretora</a></li>
+                <li><a href="https://br.investing.com/economic-calendar/" target="_blank">Cálendario econômico</a></li>
+                <li><a href="#">Macro economia</a></li>
+                <li><a href="#">Micro economia</a></li>
+                <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank">BCN</a></li>
+            </ul>
+            <ul>
+                <h3>Nos contate</h3>
+                <li>
+                    <p><a href="mailto:contato@dolarhouse.com.br" target="_blank">contato@DolarHouse.com.br</a></p>
+                </li>
+                <li><a href="#">Assesoria Ao Vivo GRATUITA</a></li>
+               
+            </ul>
         </div>
-        <ul class="footer-list">
-            <li>
-                <h3>Educativos</h3>
-            </li>
-            <li>
-                <a href="https://br.investing.com/economic-calendar/" class="footer-link" target="_blank">Calendario Economico</a>
-            </li>
-            <li>
-                <a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank" class="footer-link">BCN</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank" class="footer-link">Mini Curso</a>
-            </li>
-            <li>
-                <a href="contrato.html" class="footer-link">Termos e Contratos</a>
-            </li>
-        </ul>
-
-
-        <ul class="footer-list">
-            <li>
-                <h3>productos</h3>
-            </li>
-            <li>
-                <a href="https://invista.toroinvestimentos.com.br/u/juanFJQT" class="footer-link">ProfitPro GRATIS. Crie sua conta</a>
-            </li>
-            <li>
-                <a href="#" class="footer-link">Serviços de Progrmamação</a>
-            </li>
-            <li>
-                <a href="#" class="footer-link">Entretenimento</a>
-            </li>
-            <li>
-                <a href="#" class="footer-link">MacroEconomia</a>
-            </li>
-        </ul>
-
-        <div id="footer-subcribe">
-            <h3>Suporte</h3>
-            <p>
-                <a style="color: white;" href="mailto:contato@dolarhouse.com.br">Entre em contato conosco Via Email</a>
-                <i class="fa-solid fa-envelope"></i>  
-            </p>
+        <div id="footer-copyright">
+            &#169
+            2023 Todos os direitos reservados
         </div>
-    </div>
-
-    <div id="footer-copyright">
-        &#169
-        2023 Todos os direitos reservados
-    </div>
-</footer>
-
-      
-
-
-
-
-
-
-
-
+    </footer>
+     <!-- FIM FOOTER -->  
     <script src="js/script.js"></script>
 </body>
 </html>
