@@ -423,9 +423,6 @@ margin-bottom: 20px;
     transform: translate(-50%, -50%);
 }
 
-
-
-
 @keyframes flutuaçao {
     50%, 50%{
       transform: translateY(2px);
