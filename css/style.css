@@ -984,7 +984,7 @@ footer .container-footer a:hover{
     }
     .img{
        width: 300px;
-       height: 400px;
+       height: 350px;
     }
     
 .content{
@@ -994,7 +994,7 @@ footer .container-footer a:hover{
     transform: translateY(-50%, -50%);
 }
 .about img{
-    width: 350px;
+    width: 300px;
     height: 280px;
 }
 .about-text{
@@ -1011,25 +1011,29 @@ footer .container-footer a:hover{
 }
 
 .about-text h2{
+    text-align: center;
     color: white;
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: capitalize;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .about-text h5{
+    text-align: center;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 8px;
     text-transform: capitalize;
 }
 .about-text p{
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-size: 16px;
     margin-bottom: 10px;
+    padding: 8px;
+    text-align: left;
 }
 
 button{
