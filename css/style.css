@@ -1053,16 +1053,13 @@ button:hover{
 .card-automacoes i{
     font-size: 25px;
     margin: 8px 0px;
-
 }
 .pra p{
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 15px;
     text-align: left;
-    }
-
-    
+    }    
 .content h4{
     font-size: 15px;
     color: rgb(255, 255, 255);
@@ -1084,7 +1081,6 @@ footer .container-footer h3{
     margin-bottom: 20px;
     font-weight: 600;
     text-align: center;
-    
 }
 
 }
@@ -1114,9 +1110,6 @@ footer .container-footer h3{
     background: linear-gradient(#7f377f, #ff2992, #ff9807);
     color: white;
 }
-
-
-
 .mainautomacion{
     background-size: cover;
     background-repeat: no-repeat;
