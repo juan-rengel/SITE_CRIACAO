@@ -460,13 +460,11 @@ margin-bottom: 20px;
     padding: 10px 25px;
     border-radius: 20px;
     margin: 10px;
-  
 }
 
 .card-automacoes i{
     font-size: 30px;
     margin: 10px 0px;
-
 }
 
 .pra p{
@@ -474,28 +472,20 @@ margin-bottom: 20px;
     line-height: 23px;
     margin-bottom: 20px;
     }
-    
-
-
 .card{
     height: 420px;
     width: 335px;
     padding: 10px 25px;
     border-radius: 20px;
     margin: 10px;
-
 }
 
 .card i{
     font-size: 30px;
     margin: 10px 0px;
-
 }
 
-
- }
-
-
+}
 
  @media screen and (max-width:1205px) {
 
@@ -1086,6 +1076,15 @@ button:hover{
     color: white;
     font-size: 16px;
     margin-bottom: 5px;
+}
+footer .container-footer h3{
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    
 }
 
 }
