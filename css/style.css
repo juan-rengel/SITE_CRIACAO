@@ -993,6 +993,45 @@ footer .container-footer a:hover{
     left: 6%;
     transform: translateY(-50%, -50%);
 }
+.about img{
+    width: 350px;
+    height: 300px;
+}
+.about-text{
+    width: 350px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
 
 }
 
