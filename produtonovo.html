@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="imagenes/flavi.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assents/css/style.css">
+
+  <style>
+    body{
+      background-image: url(assents/imagenes/3.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+     
+      
+    }
+
+    main{
+      max-width: 1100px;
+      min-height: 750px;
+      background-color: rgba(250, 235, 215, 0);
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      justify-self: center;
+      align-items: center;
+
+      
+    }
+
+    .conter{
+      background-image: url(assents/imagenes/3.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .containerPro{
+      background-color: rgba(0, 0, 0, 0.77);
+      border: 1px solid rgb(255, 221, 0);
+      width: 500px;
+      height: 600px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.619);
+
+      position: relative;
+    }
+    .imgProdutos{
+      margin: 15px;
+    }
+    .imgP{
+      width: 350px;
+      height: 250px;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    .precios{
+      display: block;
+    }
+
+    .precios > h1{
+      color: white;
+      margin: 10px;
+    }
+    .precio-viejo{
+      font-size: 28px;
+      color: #ffa200;
+      font-family: sans-serif;
+      font-weight: 500;
+      margin: 10px;
+      text-decoration: line-through;
+    }
+    .por-apenas{
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      font-family: sans-serif;
+      font-weight: 600;
+      margin: 10px;
+    }
+    .precio-actual{
+      color: #01fffb;
+      font-size: 40px;
+      font-family: sans-serif;
+    }
+    .comprar a{
+      position: absolute;
+      display: block;
+      width: 80%;
+      background-color: #01fffb;
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+      padding: 12px;
+      border-radius: 15px;
+      font-size: 28px;
+      top: 85%;
+      left: 8%;
+
+      animation: flutuaçao 1s
+      ease-in-out infinite;
+      transform: scale3d(1.1, 1.1, 1);
+    }
+
+    .comprar a:hover{
+      background-color: rgb(42, 236, 116);
+    }
+
+
+
+/*   card conteudo      */
+
+.cont2 h1{
+  display: block;
+  color: rgb(255, 162, 0);
+  margin: 15px;
+  font-size: 40px;
+}
+.textoVenda p{
+  font-family: sans-serif;
+  color: white;
+  font-size: 22px;
+  padding: 15px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.515);
+  text-align: center;
+}
+
+
+
+.quero-teste p{
+  border-radius: 15px;
+  color: white;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.716);
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  
+}
+
+
+
+
+    @keyframes flutuaçao {
+    50%, 50%{
+    transform: translateY(2px);
+    }
+    50%{
+    transform: translateY(-2px);
+    }
+  }
+
+
+  /* MEDIA QUERY*/
+
+  @media(max-width:958px) {
+
+    main{
+      max-width: 1100px;
+      min-height: 750px;
+      background-color: rgba(250, 235, 215, 0);
+      display: block;
+      justify-self: center;
+      align-items: center;
+      justify-self: center;
+      align-items: center;
+      
+    }
+
+
+  }
+
+  @media(max-width:522px) {
+
+    .containerPro{
+      width: 350px;
+    }
+
+    .imgP{
+      width: 300px;
+      height: 250px;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    .quero-teste p{
+     border-radius: 15px;
+     color: white;
+     width: 280px;
+     background-color: rgba(0, 0, 0, 0.716);
+     padding: 10px;
+     font-family: sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+  
+}
+.textoVenda p{
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+  
+}
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <header>     
+    <h1 class="logo"><span style="color:  #01fffb;">Dolar</span>House</h1>
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Produtonovo.html">produtos</a></li>
+            <li><a href="#">Educativos +</a>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=XB-wwxj-AZE&t=2026s" target="_blank">Robot</a></li>
+                    <li><a href="#">DayTrader</a>
+                        <ul>
+                            <li><a href="https://br.investing.com/economic-calendar/" target="_blank">Calendario Economico</a></li>
+                            <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank">BCN</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank">Mini Curso</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li> <a href="">Contatos</a>
+                <ul>
+                    <li><a href="https://www.instagram.com/dolar.housee/" target="_blank">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="https://chat.whatsapp.com/JWXcCFzEk4XI4tTEMtGceG" target="_blank">whatsapp</a></li>
+                    <li><a href="mailto:suporte@dolarhouse.com.br" target="_blank">Email</a></li>
+                </ul>
+            </li>
+           <!-- <li><a href="quem-somos.html" target="_blank"></a></li>-->
+        </ul>
+    </nav>
+ </header>
+
+ <div class="conter">
+   
+    <main>
+   
+          <div class="containerPro">
+              <div class="imgProdutos">
+                <img src="assents/imagenes/Logo_DH1.jpg" class="imgP" alt="">
+              </div>
+              <div class="precios">
+                  <h1>Robô Investimet DH_1</h1>
+                  <p class="precio-viejo">DE R$ 2997,00</p>
+                  <p class="por-apenas">POR APENAS</p>
+                  <p class="precio-actual">12x R$100,40</p>
+              </div>
+              <div class="comprar
+              "><a href="https://pay.kiwify.com.br/4lLjJAA">Quero meu DH-1</a></div>
+          </div>
+          <div class="containerPro">
+              <div class="cont2">
+                   <h1>DH-1</h1>
+              </div>
+              <div class="textoVenda">
+                  <p>DH1, o robô da Dólar House, é a solução perfeita para quem deseja investir no
+                    mercado de câmbio de maneira automatizada e eficiente. Com nosso robô, você pode
+                    ter a tranquilidade de investir sem se preocupar com as oscilações do mercado. E o
+                    melhor de tudo é que você pode solicitar um teste grátis para comprovar sua eficiência!
+                    Venha experimentar o DH1 Agora mesmo.
+                  </p>
+              </div>
+              <div class="quero-teste">
+                  <p>
+                    Entre no grupo do Whatsapp e Solicite <br><br>
+                    <mark style="padding: 5px; border-radius: 10px; background-color: #ff8c00; color: white; font-weight: 500;">7 Dias GRATIS</mark>
+                  </p>
+              </div>
+              <div class="comprar"><a href="https://chat.whatsapp.com/JWXcCFzEk4XI4tTEMtGceG">Entrar no grupo</a></div>
+          </div>
+   
+   </main>
+ </div>
+
+
+
+ 
+ <footer>
+  <div id="footer-content">
+      <div id="footer-contacts">
+          <h1><span class="amarillo">Dolar</span>House</h1>
+          <p>Investimt Robot</p>
+          <div id="footer-social-media">
+             <a href="https://www.instagram.com/dolar.housee/" target="_blank" class="footer-link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+             </a> 
+             <a href="#" class="footer-link" id="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+             </a> 
+             <a href="https://chat.whatsapp.com/JWXcCFzEk4XI4tTEMtGceG" target="_blank" class="footer-link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+             </a> 
+          </div>
+
+      </div>
+      <ul class="footer-list">
+          <li>
+              <h3>Educativos</h3>
+          </li>
+          <li>
+              <a href="https://br.investing.com/economic-calendar/" class="footer-link" target="_blank">Calendario Economico</a>
+          </li>
+          <li>
+              <a href="https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=39772" target="_blank" class="footer-link">BCN</a>
+          </li>
+          <li>
+              <a href="https://www.youtube.com/watch?v=zpsV6ELAAMU&list=PLTOURsZcpEmUzPJ-1L5_KoHitlsMVrrnn" target="_blank" class="footer-link">Mini Curso</a>
+          </li>
+          <li>
+              <a href="contrato.html" class="footer-link">Termos e Contratos</a>
+          </li>
+      </ul>
+
+
+      <ul class="footer-list">
+          <li>
+              <h3>productos</h3>
+          </li>
+          <li>
+              <a href="https://invista.toroinvestimentos.com.br/u/juanFJQT" class="footer-link">ProfitPro GRATIS. Crie sua conta</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Serviços de Progrmamação</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Entretenimento</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">MacroEconomia</a>
+          </li>
+      </ul>
+
+      <div id="footer-subcribe">
+          <h3>Suporte</h3>
+          <p>
+              <a style="color: white;" href="mailto:suporte@dolarhouse.com.br">Entre em contato conosco Via Email</a>
+              <i class="fa-solid fa-envelope"></i>  
+          </p>
+
+          <div id="input-group">
+              <a href="mailto:suporte@dolarhouse.com.br">Suporte@DolarHouse.com.br</a>
+          </div>
+
+      </div>
+  </div>
+
+  <div id="footer-copyright">
+      &#169
+      2023 Todos os direitos reservados
+  </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

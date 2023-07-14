@@ -34,10 +34,14 @@ header{
 
 header .logo{
     font-weight: bolder;
-    font-size: 200%;
-    color: var(--color-neutral-40);
-    cursor: pointer;
+
 }
+
+header .logo img{
+    width: 50%;
+  
+}
+
 .logop{
     color: white;
     margin-top: 2px;
